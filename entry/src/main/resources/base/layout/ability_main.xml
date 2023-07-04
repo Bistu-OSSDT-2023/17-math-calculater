@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+    <Text
+        ohos:id="$+id:displaytext"
+        ohos:height="0"
+        ohos:weight="1.5"
+        ohos:width="match_parent"
+        ohos:auto_font_size="true"
+        ohos:hint="   "
+        ohos:text_alignment="right"
+        ohos:text_color="#FF000000"
+        ohos:multiple_lines="true">
+    </Text>
+    <DirectionalLayout
+        ohos:id="$+id:operationarea"
+        ohos:height="0"
+        ohos:weight="6.5"
+        ohos:width="match_parent"
+
+        ohos:alignment="center"
+        ohos:orientation="vertical"
+
+        ohos:background_element="#FFFFFFFF">
+        <DirectionalLayout
+            ohos:id="$+id:firstrow"
+            ohos:height="0"
+            ohos:weight="1"
+            ohos:width="match_parent"
+
+            ohos:alignment="center"
+            ohos:orientation="horizontal"
+
+            ohos:background_element="#FFD6FDE3">
+            <Text
+                ohos:id="$+id:clear"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="C"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:percentage"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="%"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:backspace"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="B"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:division"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="÷"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:id="$+id:secondrow"
+            ohos:height="0"
+            ohos:weight="1"
+            ohos:width="match_parent"
+
+            ohos:alignment="center"
+            ohos:orientation="horizontal"
+
+            ohos:background_element="#FFCFF1F3">
+            <Text
+                ohos:id="$+id:one"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="1"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:two"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="2"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:three"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="3"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:multiplication"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="×"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:id="$+id:thirdrow"
+            ohos:height="0"
+            ohos:weight="1"
+            ohos:width="match_parent"
+
+            ohos:alignment="center"
+            ohos:orientation="horizontal"
+
+            ohos:background_element="#FFEDFDFF">
+            <Text
+                ohos:id="$+id:four"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="4"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:five"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="5"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:six"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="6"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:subtraction"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="-"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:id="$+id:fourthrow"
+            ohos:height="0"
+            ohos:weight="1"
+            ohos:width="match_parent"
+
+            ohos:alignment="center"
+            ohos:orientation="horizontal"
+
+            ohos:background_element="#FFEDF8FA">
+            <Text
+                ohos:id="$+id:seven"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="7"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:eight"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="8"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:nine"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="9"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:addition"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="+"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+        </DirectionalLayout>
+        <DirectionalLayout
+            ohos:id="$+id:fifthrow"
+            ohos:height="0"
+            ohos:weight="1"
+            ohos:width="match_parent"
+
+            ohos:alignment="center"
+            ohos:orientation="horizontal"
+
+            ohos:background_element="#FFF7F9FA">
+            <Text
+                ohos:id="$+id:zero"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="0"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:doublezero"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="00"
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:point"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="."
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+            <Text
+                ohos:id="$+id:equalsign"
+                ohos:height="match_parent"
+                ohos:width="0"
+                ohos:weight="1"
+
+                ohos:text="="
+                ohos:text_size="50vp"
+                ohos:text_alignment="center">
+            </Text>
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>
