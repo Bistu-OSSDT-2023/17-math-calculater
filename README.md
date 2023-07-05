@@ -1,5 +1,7 @@
 # 项目介绍
 这是一个主要使用Java语言编写的简单的数学计算器，能实现简单的加减乘除计算并输出结果
+<img width="418" alt="d7967911d0e95db44a0f92a1fb1f9d7" src="https://github.com/Bistu-OSSDT-2023/17-math-calculater/assets/138198938/ab5ffd7c-cf54-48fd-98a2-34f67c15f4c2">
+
 # 安装要求
 本项目需要下载安装后在DevEco Studio上运行
 # 安装步骤
