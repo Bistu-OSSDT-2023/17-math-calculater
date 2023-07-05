@@ -3,7 +3,7 @@
 <img width="418" alt="d7967911d0e95db44a0f92a1fb1f9d7" src="https://github.com/Bistu-OSSDT-2023/17-math-calculater/assets/138198938/ab5ffd7c-cf54-48fd-98a2-34f67c15f4c2">
 # 代码模块
 ## 这是UI模块的一部分实现代码，大部分按键的实现方法与下方的代码块类似
-<Text
+
         ohos:id="$+id:displaytext"
         ohos:height="0"
         ohos:weight="1.5"
@@ -12,7 +12,7 @@
         ohos:hint="   "
         ohos:text_alignment="right"
         ohos:text_color="#FF000000"
-        ohos:multiple_lines="true">
+        ohos:multiple_lines="true"
 # 安装要求
 本项目需要下载安装后在DevEco Studio上运行
 # 安装步骤
