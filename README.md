@@ -14,7 +14,7 @@
         ohos:text_color="#FF000000"
         ohos:multiple_lines="true"
 # 安装要求
-本项目需要下载安装后在DevEco Studio上运行
+本项目需要下载安装后在DevEco Studio上运行,SDK:API version 4。
 # 安装步骤
 ## 1.软件安装
 安装Windows环境的DevEco Studio 3.0.0.800并在huawei device manager中安装本地的phone模拟器
